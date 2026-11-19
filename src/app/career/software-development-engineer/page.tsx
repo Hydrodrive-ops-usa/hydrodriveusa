@@ -4,7 +4,7 @@ import TechnicalRolePage from "@/components/careers/TechnicalRolePage";
 export const metadata: Metadata = {
   title: "Software Development Engineer | Careers | HydroDrive USA",
   description:
-    "Join HydroDrive LLC as a remote, full-time Software Development Engineer in an AI-forward daily workflow. $120,000-$140,000 per year.",
+    "Join HydroDrive LLC as a full-time, on-site Software Development Engineer in Orange, CA, in an AI-forward daily workflow. $120,000-$140,000 per year.",
 };
 
 export default function SoftwareDevelopmentEngineerPage() {
@@ -21,7 +21,7 @@ export default function SoftwareDevelopmentEngineerPage() {
   ];
 
   const requiredExperience = [
-    "3+ years of professional software development experience delivering and maintaining production web applications or backend services.",
+    "2+ years of professional software development experience delivering and maintaining production web applications or backend services.",
     "Strong TypeScript and JavaScript experience, including React and a modern full-stack framework such as Next.js.",
     "Backend API development experience in Node.js/TypeScript or Python, with a working understanding of asynchronous programming and RESTful service design.",
     "Hands-on PostgreSQL experience covering relational data modeling, SQL, indexes, transactions, schema migrations, query debugging, and an ORM such as Prisma.",
@@ -51,6 +51,8 @@ export default function SoftwareDevelopmentEngineerPage() {
     <TechnicalRolePage
       title="Software Development Engineer"
       compensation="$120,000 - $140,000 per year"
+      workMode="On-Site"
+      location="Orange, CA"
       overview="You will own the continuous development of the applications HydroDrive uses to run the business. The role spans staff-facing web products, backend services, operational databases, AI-assisted support, and real-time voice experiences. This is an AI-forward engineering environment, and you should be highly comfortable using AI assistants and coding agents to complete daily work efficiently while applying strong independent judgment. You should enjoy working across product and infrastructure boundaries, learning how the operation functions, and shipping practical improvements from idea through production."
       responsibilities={responsibilities}
       requiredExperience={requiredExperience}
