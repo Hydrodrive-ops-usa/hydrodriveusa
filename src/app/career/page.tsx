@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Careers | HydroDrive USA",
   description:
-    "Join HydroDrive LLC and help build the operations, software, and infrastructure behind accessible clean-energy mobility. View our Costa Mesa and remote openings.",
+    "Join HydroDrive LLC and help build the operations, software, and infrastructure behind accessible clean-energy mobility. View our Costa Mesa, Orange, and remote openings.",
 };
 
 export default function CareerPage() {
@@ -22,7 +22,7 @@ export default function CareerPage() {
       title: "Software Development Engineer",
       href: "/career/software-development-engineer",
       employmentType: "Full-Time",
-      location: "Remote",
+      location: "Orange, CA",
       compensation: "$120,000 - $140,000 / year",
       department: "Technology",
     },

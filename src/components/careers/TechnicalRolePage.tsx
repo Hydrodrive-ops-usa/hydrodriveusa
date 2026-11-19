@@ -9,6 +9,10 @@ type TechnicalRolePageProps = {
   requiredExperience: string[];
   preferredExperience: string[];
   impact: string[];
+  /** Chip next to Full-Time. Defaults to a remote role. */
+  workMode?: string;
+  /** Shown beside the map pin. Defaults to a remote role. */
+  location?: string;
 };
 
 function CheckList({
@@ -78,6 +82,8 @@ export default function TechnicalRolePage({
   requiredExperience,
   preferredExperience,
   impact,
+  workMode = "Remote",
+  location = "Remote",
 }: TechnicalRolePageProps) {
   return (
     <main>
@@ -125,7 +131,7 @@ export default function TechnicalRolePage({
               Full-Time
             </span>
             <span>
-              Remote
+              {workMode}
             </span>
             <span>
               Technology Team
@@ -137,7 +143,7 @@ export default function TechnicalRolePage({
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
               </svg>
-              Remote
+              {location}
             </span>
             <span className="flex items-center gap-1.5">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
