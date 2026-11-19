@@ -172,7 +172,7 @@ export default function TechnicalRolePage({
           <section className="job-section">
             <h2>About HydroDrive LLC</h2>
             <p>
-              HydroDrive LLC is a community-rooted clean-mobility company in Irvine, CA. Our software connects the day-to-day work behind vehicle rentals, fleet operations, staff coordination, customer support, and AI-assisted communications.
+              HydroDrive LLC is a community-rooted clean-mobility company in Costa Mesa, CA. Our software connects the day-to-day work behind vehicle rentals, fleet operations, staff coordination, customer support, and AI-assisted communications.
             </p>
           </section>
 
